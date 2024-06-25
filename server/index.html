@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Veri Alıcı</title>
+</head>
+<body>
+    <h1>WebSocket Veri Alıcı</h1>
+    <div id="veri-goster"></div>
+
+    <script>
+        // WebSocket bağlantısı oluşturma
+        const webSocket = new WebSocket('ws://localhost:9090');
+
+        // Mesaj alındığında
+        webSocket.onmessage = function(event) {
+            // Gelen veriyi göster
+            const gelenVeri = event.data;
+            document.getElementById('veri-goster').innerText = 'Gelen Veri: ' + gelenVeri;
+        };
+    </script>
+</body>
+</html>
