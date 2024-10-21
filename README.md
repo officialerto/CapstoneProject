@@ -28,3 +28,16 @@ Node.js sunucusu, gelen verileri işleyerek uygun MySQL sorgularını oluşturur
 Bu geri bildirim, sistemin doğru bir şekilde çalıştığını ve veri aktarımının sorunsuz bir şekilde gerçekleştiğini doğrulamak için önemlidir.
 
 Tüm bu süreç, projenin veri toplama, işleme, depolama ve sunma aşamalarını entegre ederek kullanıcıya kapsamlı bir deneyim sunar.
+
+**Kullanılan Yazılım ve Teknolojiler :**
+
+-  Arduino IDE
+-  NodeMCU (ESP8266)
+-  GY-AMG8833 Kızılötesi Termal Görüntüleyici Sensör Modülü
+-  MPU6050 ˙Ivme ve Jiroskop Sensörü
+-  Arduino / C++
+-  Node.js
+-  MySQL Veri tabanı
+-  WebSocket
+-  HTML ve CSS
+-  JavaScript
